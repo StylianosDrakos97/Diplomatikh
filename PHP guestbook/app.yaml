@@ -1,0 +1,13 @@
+runtime: php73 
+
+
+handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+
+
+env_variables:
+  CLOUDSQL_USER: root
+  CLOUDSQL_DB: appdb
+  CLOUDSQL_PASSWORD: test123
+  CLOUDSQL_DSN: "mysql:unix_socket=/cloudsql/somethingwordpressthingy:us-central1:appdb;dbname=guestbook"
