@@ -1,0 +1,52 @@
+/* e*/
+.gb-row {
+  background: #e4dfdf;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.gb-datetime {
+  color: #888;
+  font-size: 0.9em;
+  padding: 5px 0;
+}
+.gb-name {
+  font-weight: bold;
+  font-size: 1.2em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+.gb-name-a {
+  text-transform: uppercase;
+  color: #076d15;
+}
+.gb-comment { padding-top: 10px; }
+
+/*sign*/
+#gb-form {
+  margin-top: 20px;
+  background: #e4dfdf;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#gb-form label, #gb-form input, #gb-form textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 1000%;
+  padding: 8px;
+  margin-bottom: 5px;
+  resize: none;
+}
+#gb-form input[type=submit] {
+  margin-top: 15px;
+  background: #3bafaf;
+  color: rgb(0, 0, 0);
+  border: 0;
+  padding: 20px 0;
+  cursor: pointer;
+  font-size: 1em;
+  text-shadow: #ccc;
+}
+
+html, body { font-family: arial, sans-serif; }
